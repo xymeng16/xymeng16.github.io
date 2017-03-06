@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "LL分析与LR分析"
+date:   2016-11-22 20:21:12 +0800
+categories: Compiler
+---
+<h1>前言</h1>
+在编译的词法分析中，有两种极为重要的分析技术，<strong>LL分析</strong>和<strong>LR分析</strong>。下面就对这两种分析做简要地介绍。
+<h1>概述</h1>
+从宏观层面来讲，LL分析从语句的起始符号开始读取，并尝试应用产生式（production），直到达到终结符号（terminal）或报错退出。而LR分析则从语句的末尾符号开始读取，不断尝试应用产生式进行匹配并期望回退至起始符号。  
+用更为规范的语言来叙述二者，即：  
+LL分析，为自左至右（Left-to-right）的，产生最左推导（Leftmost derivation）的分析技术。  
+LR分析，为自左至右（Left-to-right）的，产生最右推导（Rightmost derivation）的分析技术。  
+<h1>LL分析</h1>  
+在LL分析过程中，通常提供预测／输出（Predict／Output）和匹配（Match）两种动作供语法分析器（grammar parser）选择。  
+<strong>预测／输出</strong>：根据最左侧的非终结符（nonterminal），以及一系列的向前看符号（lookahead tokens），确定当前输入下匹配概率最高的产生式，并输出或进行其他动作。  
+<strong>匹配</strong>：根据输入最左侧未被匹配的符号，来匹配上一阶段所预测的产生式。  
+下面为一个利用LL(2)分析器（‘2’表示每一次向前看（lookahead）两个符号），对语句int＋int＋int进行分析的实例，文法描述如下：  
+S → E  
+E → T + E  
+E → T  
+T → int  
+分析过程：  
+<pre>  
+Production       Input              Action  
+---------------------------------------------------------  
+S                int + int + int    Predict S -> E  
+E                int + int + int    Predict E -> T + E  
+T + E            int + int + int    Predict T -> int  
+int + E          int + int + int    Match int  
++ E              + int + int        Match +  
+E                int + int          Predict E -> T + E  
+T + E            int + int          Predict T -> int  
+int + E          int + int          Match int  
++ E              + int              Match +  
+E                int                Predict E -> T  
+T                int                Predict T -> int  
+int              int                Match int  
+                                    Accept  
+</pre>  
+如果产生式最左为一终结符，则对其进行匹配，若为非终结符，则对其进行预测。  
+<h1>LR分析</h1>  
+在LR分析过程中，同样有两个至关重要的动作：  
+<strong>移入（Shift）</strong>：向一给定的缓冲区（通常为栈）中，加入输入串中当前被指向的符号。  
+<strong>归约（Reduce）</strong>：通过将产生式与缓冲区中一个或多个符号进行逆向匹配，将该符号串转换为对应产生式中的非终结符号。  
+下面以一个LR(1)分析器为例（‘1’表示每一次向前看一个符号），给出其对LL(2)实例中的语句在相同文法下进行分析的过程：  
+<pre>  
+Buffer           Input              Action
+---------------------------------------------------------
+                 int + int + int    Shift
+int              + int + int        Reduce T -> int
+T                + int + int        Shift
+T +              int + int          Shift
+T + int          + int              Reduce T -> int
+T + T            + int              Shift
+T + T +          int                Shift
+T + T + int                         Reduce T -> int
+T + T + T                           Reduce E -> T
+T + T + E                           Reduce E -> T + E
+T + E                               Reduce E -> T + E
+E                                   Reduce S -> E
+S                                   Accept
+</pre>  
+<h1>总结</h1>  
+从上述两个实例中可以看出，LL分析过程与LR分析过程对输入串的处理几乎相反，这也很好的呼应了其定义中L与R的差别。通常，我们称LL方法为自顶向下（Top-Down）的语法分析方法，而LR方法则被称为自底向上（Bottom-Up）的语法分析方法。注意，其中的顶即输入串的头部，底即输入串的末尾。
