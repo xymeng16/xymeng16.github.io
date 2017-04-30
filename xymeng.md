@@ -51,27 +51,45 @@ Xiamen International Bank Scholarship, Xiamen University
 
 <!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
 
-### A keyword-based auto generating system for Chinese couplets _Advisor: Prof. Xuling Zheng_
+### A keyword-based auto generating system for Chinese couplets  
+_Advisor: Prof. Xuling Zheng_
 - Novelly expand the current method for couplets generating based on a given sentence to an approach using given
   keyword.
 - A phrase-based SMT model is deployed to generate the initial couplet pairs and an approach for optimizing the
   quality of the couplets based on immune algorithm is proposed.
 - An SVM is trained for the evaluation of the couplets using manually pre-labeled couplets.
 
-## Occupation
+### A basketball shooting training and motion tracking system via machine learning
+_Advisor: Lingxiang Zheng, Senior Engineer_
+- A neural network embedded on Intel Curie is applied for the evaluation of the shooting performance using
+  features extracted from accelerometer and gyrometer data.
+- Inspired by Robotics, we constrained the possible location of the joints in the arm into certain spaces represented
+  as point-clouds, aiming at simulating the shooting motion.
+- A modified hidden Markov Model is proposed to track the motion of shooting, which its states are defined in the
+  spaces of the point-clouds.
+  
+### Iteratively collective prediction of disease-gene associations through the incomplete network
+_Advisor: Prof. Xiangxiang Zeng_
+- We studied the similarity measure of the nodes in heterogeneous network and came up with “weighted path count
+  with random walk” to fit the complex topological architecture.
+- PU learning is studied and integrated into the classification method in view of negative samples in gene-disease
+  link datasets are extremely scarce.
+- Being different with state-of-the-art singleton approach, an iterative framework for link prediction on
+  heterogeneous network is proposed and deployed on gene-disease link prediction.
+  
+### A Django based online Q&A system
+_[Xiamen University Turing Class Online System](http://turing.ymyin.me/)_
+- Inspired by [Stackoverflow.com](Stackoverflow.com), we developed an similar online QA website based on the Django framework to
+  provide a platform for the teachers and students at XMU to communicate with each other.
+- Currently, our project is still being developing, and it has 4 basic functions: User Control, Q&A, Online Test, File
+  Upload&Download.
+- Our project is deployed on a Ubuntu server at Ali Cloud using uWSGI and Nginx.
 
-`1600`
-__Royal Mint__, London
 
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+## Skills
+__Experienced__: C, C++, C#, MATLAB, Latex, Python, Git, Linux  
+__Amateur__: Java, Web Development, Tensorflow  
 
 
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
+Last Updated: May 2017
 
