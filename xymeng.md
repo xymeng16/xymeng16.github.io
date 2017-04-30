@@ -7,7 +7,7 @@ group: navigation
 {% include JB/setup %}
 
 # Xiangyi Meng 
-Physicist, Mathematician, Cambridge professor.
+Physicist, Mathematician, Cambridge professor. ![Xiangyi Meng](/_medias/img/xymeng.jpg)
 
 
 

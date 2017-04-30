@@ -130,7 +130,7 @@ h1#xiangyi-meng {
     font-size: 3em;
     line-height: 1em;
     position: relative;
-    left: 33%;
+    /* left: 33%; */
 }
 
 #cv_id h1+p {
