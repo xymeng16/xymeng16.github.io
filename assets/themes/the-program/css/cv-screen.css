@@ -20,7 +20,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    /* font: inherit; */
     vertical-align: baseline;
 }
 HTML5 display-role reset for older browsers
@@ -78,7 +78,7 @@ code {
 
 p code {
     position: absolute;
-    left: -14%;
+    left: -23%;
 }
 
 
@@ -115,6 +115,7 @@ h1,h2,h3,h4 {
     font-weight: 400;
     font-family: Cousine,Verdana,sans-serif;
     width: 65%;
+    margin: 0.8em;
 }
 
 h1 {
