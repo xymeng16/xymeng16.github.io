@@ -1,7 +1,11 @@
 ---
-layout: cv
-title: Isaac Newtons's CV
+layout: page
+title: About Xiangyi Meng 
+header: About Xiangyi Meng
+group: navigation
 ---
+{% include JB/setup %}
+
 # Isaac Newton
 Physicist, Mathematician, Cambridge professor.
 
