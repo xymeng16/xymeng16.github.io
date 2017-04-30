@@ -51,8 +51,7 @@ table {
 
 
 
-#cv_id {
-    font: normal normal 400;
+:not(.the-header, .the-footer) body {
     font-size: 80%;
     line-height: 1.5em;
     /*also written as...  font: normal normal 400 100%/1.5em;*/
@@ -61,7 +60,7 @@ table {
     margin-left: 1em;
 }
 
-p {
+:not(.the-header, .the-footer) p {
     position: relative;
     left: 33%;
     margin-bottom: 0.7em;
@@ -69,7 +68,7 @@ p {
     width: 65%;
 }
 
-code {
+:not(.the-header, .the-footer) code {
     font: normal normal;
     font-size: 60%;
     /*line-height: 1em;*/
@@ -77,13 +76,13 @@ code {
     color: #aaa;
 }
 
-p code {
+:not(.the-header, .the-footer) p code {
     position: absolute;
     left: -14%;
 }
 
 
-ul {
+:not(.the-header, .the-footer) ul {
     position: relative;
     left: 33%;
     width: 65%;
@@ -98,27 +97,27 @@ ul {
 	left: -0.25em;
 }*/
 
-li {
+:not(.the-header, .the-footer) li {
     /*second line indent*/
     padding-left: 1.25em;
     text-indent: -1.25em;
     /*color: #777;*/
 }
 
-li ul {
+:not(.the-header, .the-footer) li ul {
     position: relative;
     left: 0;
     width: 100%;
     margin-top: 0.25em;
 }
 
-h1,h2,h3,h4 {
+:not(.the-header, .the-footer) h1,h2,h3,h4 {
     font-weight: 400;
     font-family: Cousine,Verdana,sans-serif;
     width: 65%;
 }
 
-h1 {
+:not(.the-header, .the-footer) h1 {
     text-align: left;
     font-size: 3em;
     line-height: 1em;
@@ -126,13 +125,13 @@ h1 {
     left: 33%;
 }
 
-h1+p {
+:not(.the-header, .the-footer) h1+p {
     /*subtitle*/
     font-style: italic;
     font-size: 110%;
 }
 
-h2 {
+:not(.the-header, .the-footer) h2 {
     font-size: 1.1em;
     color: #a00;
     margin-top: 3em;
@@ -142,7 +141,7 @@ h2 {
     width: 20%;
 }
 
-h3 {
+:not(.the-header, .the-footer) h3 {
     font-size: 1em;
     line-height: 2em;
     position: relative;
@@ -151,16 +150,16 @@ h3 {
     width: 20%;
 }
 
-a {
+:not(.the-header, .the-footer) a {
     color: inherit;
     /*text-decoration:none*/
 }
 
-a:hover {
+:not(.the-header, .the-footer) a:hover {
     color:#39f
 }
 
-#webaddress {
+:not(.the-header, .the-footer) #webaddress {
     margin-top: 1em;
     position: relative;
     left: 33%;
@@ -169,20 +168,20 @@ a:hover {
     font-size: 80%;
 }
 
-#webaddress a {
+:not(.the-header, .the-footer) #webaddress a {
     text-decoration: none;
 }
 
-em {
+:not(.the-header, .the-footer) em {
     font-weight: bold;
     font-style: italic;
 }
 
-strong {
+:not(.the-header, .the-footer) strong {
     font-weight: bold;
 }
 
-#address {
+:not(.the-header, .the-footer) #address {
     display: none;
 }
 
