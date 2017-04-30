@@ -62,8 +62,8 @@ body {
 
 .content p {
     position: relative;
-    left: 33%;
-    margin-bottom: 0.7em;
+    left: 17%;
+    margin-bottom: -0.3em;
     margin-right: 0;
     width: 65%;
 }
@@ -71,9 +71,11 @@ body {
 #cv_id code {
     font: normal normal;
     font-size: 60% !important;
+    text-align: right !important;
     /*line-height: 1em;*/
     font-family: Menlo,monospace,sans-serif !important;
     color: #000000 !important;
+    background-color: bisque;
 }
 
 #cv_id p code {
@@ -84,7 +86,7 @@ body {
 
 #cv_id  ul {
     position: relative;
-    left: 33%;
+    left: 28%;
     width: 65%;
     margin-bottom: 1.5em;
     margin-top: -0.5em;
