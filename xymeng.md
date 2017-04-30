@@ -90,6 +90,10 @@ _[Xiamen University Turing Class Online System](http://turing.ymyin.me/)_
 __Experienced__: C, C++, C#, MATLAB, Latex, Python, Git, Linux  
 __Amateur__: Java, Web Development, Tensorflow  
 
-
+  
+    
+   
+   
+   
 Last Updated: May 2017
 
