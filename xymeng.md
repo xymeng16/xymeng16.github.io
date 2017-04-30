@@ -56,17 +56,15 @@ Associate, *French Academy of Science*, Paris, France
 
 <!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
 
-### Journals
-
 `1669`
 Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
 
 `1669`
-Lectiones opticæ.
+Lectiones optic.
 
 etc. etc. etc.
 
-### Patents
+## Patents
 
 `2012`
 Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001

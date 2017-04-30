@@ -16,11 +16,11 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0px;
-    padding: 0px;
-    /* border: 0; */ 0 */
-    font-size: 100%;0% */
-    /* font: inherit; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
     vertical-align: baseline;
 }
 HTML5 display-role reset for older browsers
@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
-    /* line-height: 1; */
+    line-height: 1;
 }
 ol, ul {
     list-style: none;
@@ -66,29 +66,28 @@ p {
     margin-bottom: 0.7em;
     margin-right: 0;
     width: 65%;
-    margin-top: auto;
 }
 
 code {
     font: normal normal;
-    font-size: 80%;
-    line-height: 1em;
+    font-size: 60%;
+    /*line-height: 1em;*/
     font-family: Menlo,monospace,sans-serif;
-    /* color: #aaa; */
+    color: #aaa;
 }
 
 p code {
     position: absolute;
-    left: -30%;
+    left: -14%;
 }
 
 
-.content ul {
+ul {
     position: relative;
-    left: 36%;
+    left: 33%;
     width: 65%;
     margin-bottom: 1.5em;
-    /* margin-top: -0.5em; */
+    margin-top: -0.5em;
 }
 
 /*uncomment to get dashes in the list*/
@@ -136,7 +135,7 @@ h2 {
     font-size: 1.1em;
     color: #a00;
     margin-top: 3em;
-    /* position: relative; */
+    position: relative;
     top: 1.4em;
     text-align: right;
     width: 20%;
