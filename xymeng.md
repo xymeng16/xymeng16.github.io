@@ -6,69 +6,57 @@ group: navigation
 ---
 {% include JB/setup %}
 
-# Xiangyi Meng <img width="100" src="https://raw.githubusercontent.com/xymeng16/xymeng16.github.io/master/_medias/img/xymeng.jpg">
-Physicist, Mathematician, Cambridge professor.
+# Xiangyi Meng 
+Student, Programmer, Primary Researcher<img width="100" src="https://raw.githubusercontent.com/xymeng16/xymeng16.github.io/master/_medias/img/xymeng.jpg">  
 
 
 
 
-## Currently
+## Overview
 
-Standing on the shoulders of giants
-
-### Specialized in
-
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
-
-
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
+I am currently a undergraduate student in Department of Computer Science Xiamen University since 2014. 
+My hometown is Shijiazhuang, Hebei, China. My research mainly focuses on Data Mining, Bioinformatics and 
+Security. My current interests are in graph mining, human action recognition and semi-supervised learning.
+And I am preparing to study in Hong Kong after graduating from XMU.
 
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
-
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
+`2014-2018`
+__Xiamen University, Xiamen, China__ _B.E. in Computer Science_
 
 
 
-## Awards
+## Selected Awards
 
-`2012`
-President, *Royal Society*, London, UK
+`2014-2015`
+National Scholarship  
+`2014-2015`
+Outstanding Merit Student, Xiamen University  
+`2015-2016`
+Excellent Young Volunteer, Xiamen University  
+`2016.1`
+Successful Participant, 2016 *Interdisciplinary Contest In Modeling*  
+`2016.8`
+First prize of the *6th "Huawei Cup" AI Designing Competition of University Students in China*  
+`2016-2017`
+Excellent Student Cadre, Xiamen University  
+`2016-2017`
+Scholarship for Academic Innovation, Xiamen University  
+`2016-2017`
+Xiamen International Bank Scholarship, Xiamen University
 
-Associate, *French Academy of Science*, Paris, France
 
-
-
-## Publications
+## Research/Project Experiences
 
 <!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones optic.
-
-etc. etc. etc.
-
-## Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
+### A keyword-based auto generating system for Chinese couplets _Advisor: Prof. Xuling Zheng_
+- Novelly expand the current method for couplets generating based on a given sentence to an approach using given
+  keyword.
+- A phrase-based SMT model is deployed to generate the initial couplet pairs and an approach for optimizing the
+  quality of the couplets based on immune algorithm is proposed.
+- An SVM is trained for the evaluation of the couplets using manually pre-labeled couplets.
 
 ## Occupation
 

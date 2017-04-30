@@ -79,7 +79,7 @@ body {
 }
 
 #cv_id p code {
-    position: absolute important;
+    position: absolute !important;
     left: -23% !important;
 }
 
