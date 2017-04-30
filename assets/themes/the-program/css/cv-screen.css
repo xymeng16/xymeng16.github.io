@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
+    /*margin: 0;*/
     /* padding: 0; */
     /* border: 0; */
     /* font-size: 100%; */0% */0% */0% */0% */0% */
@@ -70,22 +70,22 @@ body {
 
 #cv_id code {
     font: normal normal;
-    font-size: 60%;
+    font-size: 60% !important;
     /*line-height: 1em;*/
-    font-family: Menlo,monospace,sans-serif;
-    color: #aaa;
+    font-family: Menlo,monospace,sans-serif !important;
+    color: #000000 !important;
 }
 
 #cv_id p code {
-    position: absolute;
-    left: -23%;
+    position: absolute important;
+    left: -23% !important;
 }
 
 
 #cv_id  ul {
     position: relative;
-    /* left: 33%; */
-    /* width: 65%; */
+    left: 33%;
+    width: 65%;
     margin-bottom: 1.5em;
     margin-top: -0.5em;
 }
