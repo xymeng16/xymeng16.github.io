@@ -1,18 +1,15 @@
 ---
-layout: page
+layout: cv
 title: About Xiangyi Meng 
 header: About Xiangyi Meng
 group: navigation
 ---
 {% include JB/setup %}
 
-# Isaac Newton
+# Xiangyi Meng 
 Physicist, Mathematician, Cambridge professor.
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-</div>
+
 
 
 ## Currently
