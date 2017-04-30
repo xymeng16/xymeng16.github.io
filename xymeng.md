@@ -23,7 +23,7 @@ And I am preparing to study in Hong Kong after graduating from XMU.
 ## Education
 
 `2014-2018`
-__Xiamen University, Xiamen, China__ _B.E. in Computer Science_
+__Xiamen University, Xiamen, China__, _B.E. in Computer Science_
 
 
 
@@ -47,7 +47,7 @@ Scholarship for Academic Innovation, Xiamen University
 Xiamen International Bank Scholarship, Xiamen University
 
 
-## Research/Project Experiences
+## Researches
 
 <!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
 

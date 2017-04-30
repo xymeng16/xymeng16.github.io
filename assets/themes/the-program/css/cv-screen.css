@@ -79,7 +79,7 @@ body {
 }
 
 #cv_id p code {
-    position: absolute !important;
+    position: absolute important;
     left: -23% !important;
 }
 
@@ -118,10 +118,10 @@ h1#xiangyi-meng {
 }
 
 #cv_id h1, h2, h3, h4 {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 22px;
     font-family: Cousine,Verdana,sans-serif;
-    width: 65%;
+    /* width: 65%; */
     margin: 0.8em;
 }
 
@@ -153,9 +153,10 @@ h1#xiangyi-meng {
     font-size: 1em;
     line-height: 2em;
     position: relative;
-    top: 1.7em;
-    text-align: right;
-    width: 20%;
+    /* top: 1.7em; */
+    left: 11%;
+    /* text-align: right; */
+    /* width: 20%; */
 }
 
 #cv_id a {
