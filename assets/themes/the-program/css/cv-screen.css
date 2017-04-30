@@ -3,55 +3,55 @@
    License: none (public domain)
 */
 
-/*html, body, div, span, applet, object, iframe,*/
-/*h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/
-/*a, abbr, acronym, address, big, cite, code,*/
-/*del, dfn, em, img, ins, kbd, q, s, samp,*/
-/*small, strike, strong, sub, sup, tt, var,*/
-/*b, u, i, center,*/
-/*dl, dt, dd, ol, ul, li,*/
-/*fieldset, form, label, legend,*/
-/*table, caption, tbody, tfoot, thead, tr, th, td,*/
-/*article, aside, canvas, details, embed,*/
-/*figure, figcaption, footer, header, hgroup,*/
-/*menu, nav, output, ruby, section, summary,*/
-/*time, mark, audio, video {*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-    /*border: 0;*/
-    /*font-size: 100%;*/
-    /*font: inherit;*/
-    /*vertical-align: baseline;*/
-/*}*/
- /*HTML5 display-role reset for older browsers*/
-/*article, aside, details, figcaption, figure,*/
-/*footer, header, hgroup, menu, nav, section {*/
-    /*display: block;*/
-/*}*/
-/*body {*/
-    /*line-height: 1;*/
-/*}*/
-/*ol, ul {*/
-    /*list-style: none;*/
-/*}*/
-/*blockquote, q {*/
-    /*quotes: none;*/
-/*}*/
-/*blockquote:before, blockquote:after,*/
-/*q:before, q:after {*/
-    /*content: '';*/
-    /*content: none;*/
-/*}*/
-/*table {*/
-    /*border-collapse: collapse;*/
-    /*border-spacing: 0;*/
-/*}*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+ HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
- /*end of reset*/
+ end of reset
 
 
 
-:not(.the-header, .the-footer) body {
+body {
     font-size: 80%;
     line-height: 1.5em;
     /*also written as...  font: normal normal 400 100%/1.5em;*/
@@ -60,7 +60,7 @@
     margin-left: 1em;
 }
 
-:not(.the-header, .the-footer) p {
+p {
     position: relative;
     left: 33%;
     margin-bottom: 0.7em;
@@ -68,7 +68,7 @@
     width: 65%;
 }
 
-:not(.the-header, .the-footer) code {
+code {
     font: normal normal;
     font-size: 60%;
     /*line-height: 1em;*/
@@ -76,13 +76,13 @@
     color: #aaa;
 }
 
-:not(.the-header, .the-footer) p code {
+p code {
     position: absolute;
     left: -14%;
 }
 
 
-:not(.the-header, .the-footer) ul {
+ul {
     position: relative;
     left: 33%;
     width: 65%;
@@ -97,27 +97,27 @@
 	left: -0.25em;
 }*/
 
-:not(.the-header, .the-footer) li {
+li {
     /*second line indent*/
     padding-left: 1.25em;
     text-indent: -1.25em;
     /*color: #777;*/
 }
 
-:not(.the-header, .the-footer) li ul {
+li ul {
     position: relative;
     left: 0;
     width: 100%;
     margin-top: 0.25em;
 }
 
-:not(.the-header, .the-footer) h1,h2,h3,h4 {
+h1,h2,h3,h4 {
     font-weight: 400;
     font-family: Cousine,Verdana,sans-serif;
     width: 65%;
 }
 
-:not(.the-header, .the-footer) h1 {
+h1 {
     text-align: left;
     font-size: 3em;
     line-height: 1em;
@@ -125,13 +125,13 @@
     left: 33%;
 }
 
-:not(.the-header, .the-footer) h1+p {
+h1+p {
     /*subtitle*/
     font-style: italic;
     font-size: 110%;
 }
 
-:not(.the-header, .the-footer) h2 {
+h2 {
     font-size: 1.1em;
     color: #a00;
     margin-top: 3em;
@@ -141,7 +141,7 @@
     width: 20%;
 }
 
-:not(.the-header, .the-footer) h3 {
+h3 {
     font-size: 1em;
     line-height: 2em;
     position: relative;
@@ -150,16 +150,16 @@
     width: 20%;
 }
 
-:not(.the-header, .the-footer) a {
+a {
     color: inherit;
     /*text-decoration:none*/
 }
 
-:not(.the-header, .the-footer) a:hover {
+a:hover {
     color:#39f
 }
 
-:not(.the-header, .the-footer) #webaddress {
+#webaddress {
     margin-top: 1em;
     position: relative;
     left: 33%;
@@ -168,20 +168,20 @@
     font-size: 80%;
 }
 
-:not(.the-header, .the-footer) #webaddress a {
+#webaddress a {
     text-decoration: none;
 }
 
-:not(.the-header, .the-footer) em {
+em {
     font-weight: bold;
     font-style: italic;
 }
 
-:not(.the-header, .the-footer) strong {
+strong {
     font-weight: bold;
 }
 
-:not(.the-header, .the-footer) #address {
+#address {
     display: none;
 }
 
