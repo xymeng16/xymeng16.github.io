@@ -68,7 +68,7 @@ body {
     width: 65%;
 }
 
-.cv_id code {
+#cv_id code {
     font: normal normal;
     font-size: 60%;
     /*line-height: 1em;*/
@@ -76,13 +76,13 @@ body {
     color: #aaa;
 }
 
-.cv_id p code {
+#cv_id p code {
     position: absolute;
     left: -23%;
 }
 
 
-.cv_id  ul {
+#cv_id  ul {
     position: relative;
     /* left: 33%; */
     /* width: 65%; */
@@ -96,29 +96,34 @@ body {
 	position: relative;
 	left: -0.25em;
 }*/
-
-.cv_id li {
+h1#xiangyi-meng {
+    text-align: center;
+    font-weight: 400;
+    margin: 0.8em;
+}
+#cv_id li {
     /*second line indent*/
     padding-left: 1.25em;
     text-indent: -1.25em;
     /*color: #777;*/
 }
 
-.cv_id li ul {
+#cv_id li ul {
     position: relative;
     left: 0;
     width: 100%;
     margin-top: 0.25em;
 }
 
-.cv_id h1, h2, h3, h4 {
+#cv_id h1, h2, h3, h4 {
     font-weight: 400;
+    font-size: 22px;
     font-family: Cousine,Verdana,sans-serif;
     width: 65%;
     margin: 0.8em;
 }
 
-.cv_id h1 {
+#cv_id h1 {
     text-align: left;
     font-size: 3em;
     line-height: 1em;
@@ -126,13 +131,13 @@ body {
     left: 33%;
 }
 
-.cv_id h1+p {
+#cv_id h1+p {
     /*subtitle*/
     font-style: italic;
     font-size: 110%;
 }
 
-.cv_id h2 {
+#cv_id h2 {
     font-size: 1.1em;
     color: #a00;
     margin-top: 3em;
@@ -142,7 +147,7 @@ body {
     width: 20%;
 }
 
-.cv_id h3 {
+#cv_id h3 {
     font-size: 1em;
     line-height: 2em;
     position: relative;
@@ -151,12 +156,12 @@ body {
     width: 20%;
 }
 
-.cv_id a {
+#cv_id a {
     color: inherit;
     /*text-decoration:none*/
 }
 
-.cv_id a:hover {
+#cv_id a:hover {
     color:#39f
 }
 
@@ -173,16 +178,16 @@ body {
     text-decoration: none;
 }
 
-.cv_id em {
+#cv_id em {
     font-weight: bold;
     font-style: italic;
 }
 
-.cv_id strong {
+#cv_id strong {
     font-weight: bold;
 }
 
-.cv_id #address {
+#cv_id #address {
     display: none;
 }
 
