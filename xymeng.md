@@ -28,10 +28,10 @@ __Xiamen University, Xiamen, China__, _B.E. in Computer Science_
 
 ## Publications
 ### 2017
-__Xiangyi Meng__, Rui Xu, Xuantong Chen, \*Lingxiang Zheng, et al., Human Action Classification in Basketball: A
+1. __Xiangyi Meng__, Rui Xu, Xuantong Chen, \*Lingxiang Zheng, et al., Human Action Classification in Basketball: A
 Single Inertial Sensor Based Framework, *The 6th International Conference on Frontier Computing (FC 2017),
 Osaka, Japan*  
-Yizhen Wang, __Xiangyi Meng__, \*Lingxiang Zheng, et al., A Smartphone Inertial Sensor Based Recursive 
+2. Yizhen Wang, __Xiangyi Meng__, \*Lingxiang Zheng, et al., A Smartphone Inertial Sensor Based Recursive 
 Zero-Velocity Detection Approach, *The 6th International Conference on Frontier Computing (FC 2017), Osaka, Japan*
 
 
