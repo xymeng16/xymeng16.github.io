@@ -119,7 +119,7 @@ h1#xiangyi-meng {
     margin-top: 0.25em;
 }
 
-#cv_id h1, h2, h3, h4 {
+#cv_id h1, #cv_id h2, #cv_id h3, #cv_id h4 {
     /* font-weight: 400; */
     font-size: 22px;
     font-family: Cousine,Verdana,sans-serif;
