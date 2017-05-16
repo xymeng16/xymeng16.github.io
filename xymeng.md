@@ -84,6 +84,7 @@ _Advisor: Prof. Xiangxiang Zeng_
   link datasets are extremely scarce.
 - Being different with state-of-the-art singleton approach, an iterative framework for link prediction on
   heterogeneous network is proposed and deployed on gene-disease link prediction.
+- The source code is published at my GitHub:[xymeng16/ISL4LP](https://github.com/xymeng16/ISL4LP).
   
 ### A Django based online Q&A system
 _[Xiamen University Turing Class Online System](http://turing.ymyin.me/)_
