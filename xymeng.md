@@ -17,7 +17,8 @@ Student, Programmer, Primary Researcher<img width="100" src="https://raw.githubu
 I am currently a undergraduate student in Department of Computer Science at Xiamen University since 2014. 
 My hometown is Shijiazhuang, Hebei, China. My research mainly focuses on Data Mining, Bioinformatics and 
 Security. My current interests are in graph mining, human action recognition and semi-supervised learning.
-And I am preparing to study in Hong Kong after graduating from XMU.
+And I am preparing to study in Hong Kong after graduating from XMU.  
+The full pdf version of my resume can be downloaded [here](https://github.com/xymeng16/xymeng16.github.io/raw/master/ENG_CV_Xiangyi_Meng.pdf).
 
 
 ## Education
